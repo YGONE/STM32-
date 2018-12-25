@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ProjectGui xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project_gui.xsd">
+
+  <SchemaVersion>-5.1</SchemaVersion>
+
+  <Header>### uVision Project, (C) Keil Software</Header>
+
+  <ViewPool/>
+
+  <SECTreeCtrl>
+    <View>
+      <WinId>38003</WinId>
+      <ViewName>Registers</ViewName>
+      <TableColWidths>115 45</TableColWidths>
+    </View>
+    <View>
+      <WinId>346</WinId>
+      <ViewName>Code Coverage</ViewName>
+      <TableColWidths>665 160</TableColWidths>
+    </View>
+    <View>
+      <WinId>204</WinId>
+      <ViewName>Performance Analyzer</ViewName>
+      <TableColWidths>825</TableColWidths>
+    </View>
+  </SECTreeCtrl>
+
+  <TreeListPane>
+    <View>
+      <WinId>1506</WinId>
+      <ViewName>Symbols</ViewName>
+      <UserString></UserString>
+      <TableColWidths>56 56 56</TableColWidths>
+    </View>
+    <View>
+      <WinId>1936</WinId>
+      <ViewName>Watch 1</ViewName>
+      <UserString></UserString>
+      <TableColWidths>56 56 56</TableColWidths>
+    </View>
+    <View>
+      <WinId>1937</WinId>
+      <ViewName>Watch 2</ViewName>
+      <UserString></UserString>
+      <TableColWidths>56 56 56</TableColWidths>
+    </View>
+    <View>
+      <WinId>1935</WinId>
+      <ViewName>Call Stack + Locals</ViewName>
+      <UserString></UserString>
+      <TableColWidths>56 56 56</TableColWidths>
+    </View>
+    <View>
+      <WinId>2506</WinId>
+      <ViewName>Trace Data</ViewName>
+      <UserString></UserString>
+      <TableColWidths>75 135 130 95 70 230 200 150</TableColWidths>
+    </View>
+  </TreeListPane>
+
+  <WindowSettings>
+    <LogicAnalizer>
+      <ShowLACursor>1</ShowLACursor>
+      <ShowSignalInfo>1</ShowSignalInfo>
+      <ShowCycles>0</ShowCycles>
+      <LeftSideBarSize>0</LeftSideBarSize>
+      <TimeBaseIndex>-1</TimeBaseIndex>
+    </LogicAnalizer>
+  </WindowSettings>
+
+  <WinLayoutEx>
+    <sActiveDebugView></sActiveDebugView>
+    <WindowPosition>
+      <length>44</length>
+      <flags>2</flags>
+      <showCmd>2</showCmd>
+      <MinPosition>
+        <xPos>-32000</xPos>
+        <yPos>-32000</yPos>
+      </MinPosition>
+      <MaxPosition>
+        <xPos>-1</xPos>
+        <yPos>-1</yPos>
+      </MaxPosition>
+      <NormalPosition>
+        <Top>7</Top>
+        <Left>-144</Left>
+        <Right>1192</Right>
+        <Bottom>729</Bottom>
+      </NormalPosition>
+    </WindowPosition>
+    <MDIClientArea>
+      <RegID>0</RegID>
+      <MDITabState>
+        <Len>653</Len>
+        <Data>0100000004000000010000000100000001000000010000000000000002000000000000000100000001000000000000002800000028000000010000000400000002000000010000004F463A5C594E5C6769742D666F722D79616E675CCAB5D1E931202D206E524632344C3031CEDECFDFB7A2C9E4A3A8C4A3C4E2535049A3A95C52462D54585C50726F6A6563745C7372635C6D61696E2E6300000000066D61696E2E6300000000FFDC7800FFFFFFFF54463A5C594E5C6769742D666F722D79616E675CCAB5D1E931202D206E524632344C3031CEDECFDFB7A2C9E4A3A8C4A3C4E2535049A3A95C52462D54585C50726F6A6563745C7372635C6E524632346C3031502E68000000000B6E524632346C3031502E6800000000BECEA100FFFFFFFF54463A5C594E5C6769742D666F722D79616E675CCAB5D1E931202D206E524632344C3031CEDECFDFB7A2C9E4A3A8C4A3C4E2535049A3A95C52462D54585C50726F6A6563745C7372635C6E524632344C3031502E63000000000B6E524632344C3031502E6300000000F0A0A100FFFFFFFF76463A5C594E5C6769742D666F722D79616E675CCAB5D1E931202D206E524632344C3031CEDECFDFB7A2C9E4A3A8C4A3C4E2535049A3A95C52462D54585C4C69627261726965735C53544D3332463130785F5374645065726970685F4472697665725C696E635C73746D3332663130785F6770696F2E68000000001073746D3332663130785F6770696F2E6800000000BCA8E100FFFFFFFF0100000010000000C5D4F200FFDC7800BECEA100F0A0A100BCA8E1009CC1B600F7B88600D9ADC200A5C2D700B3A6BE00EAD6A300F6FA7D00B5E99D005FC3CF00C1838300CACAD500010000000000000002000000AE83FFFF4F83FFFF5688FFFF4685FFFF</Data>
+      </MDITabState>
+    </MDIClientArea>
+  </WinLayoutEx>
+
+  <MDIGroups>
+    <Orientation>1</Orientation>
+    <ActiveMDIGroup>0</ActiveMDIGroup>
+    <MDIGroup>
+      <Size>100</Size>
+      <ActiveTab>2</ActiveTab>
+      <Doc>
+        <Name>..\src\main.c</Name>
+        <ColumnNumber>20</ColumnNumber>
+        <TopLine>20</TopLine>
+        <CurrentLine>38</CurrentLine>
+        <Folding>1</Folding>
+        <ContractedFolders></ContractedFolders>
+        <PaneID>0</PaneID>
+      </Doc>
+      <Doc>
+        <Name>F:\YN\git-for-yang\实验1 - nRF24L01无线发射（模拟SPI）\RF-TX\Project\src\nRF24l01P.h</Name>
+        <ColumnNumber>0</ColumnNumber>
+        <TopLine>6</TopLine>
+        <CurrentLine>17</CurrentLine>
+        <Folding>1</Folding>
+        <ContractedFolders></ContractedFolders>
+        <PaneID>0</PaneID>
+      </Doc>
+      <Doc>
+        <Name>..\src\nRF24L01P.c</Name>
+        <ColumnNumber>44</ColumnNumber>
+        <TopLine>39</TopLine>
+        <CurrentLine>59</CurrentLine>
+        <Folding>1</Folding>
+        <ContractedFolders></ContractedFolders>
+        <PaneID>0</PaneID>
+      </Doc>
+      <Doc>
+        <Name>F:\YN\git-for-yang\实验1 - nRF24L01无线发射（模拟SPI）\RF-TX\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h</Name>
+        <ColumnNumber>0</ColumnNumber>
+        <TopLine>64</TopLine>
+        <CurrentLine>75</CurrentLine>
+        <Folding>1</Folding>
+        <ContractedFolders></ContractedFolders>
+        <PaneID>0</PaneID>
+      </Doc>
+    </MDIGroup>
+  </MDIGroups>
+
+</ProjectGui>

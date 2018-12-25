@@ -1,0 +1,104 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.18.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ning zhang, 55, LIC=GMZ74-FFC7A-M93GG-VYSAB-VLY28-JUCF8
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.18
+Toolchain Path:  D:\MDK5\anzhuang\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18
+Dialog DLL:      DARMSTM.DLL V1.65.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.18.0
+Dialog DLL:      TARMSTM.DLL V1.64.0.0
+ 
+<h2>Project:</h2>
+D:\工作\YN\git-for-yang\ADC8486M100\M100\Project\MDK-ARM\RF-TX.uvprojx
+Project File Date:  10/08/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'D:\MDK5\anzhuang\ARM\ARMCC\Bin'
+Rebuild target 'RF-TX'
+compiling CRC.c...
+..\src\CRC.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\src\CRC.c(59): warning:  #1-D: last line of file ends without a newline
+  }
+..\src\CRC.c: 2 warnings, 0 errors
+compiling delay.c...
+compiling stm32f10x_it.c...
+compiling led.c...
+compiling nRF24L01P.c...
+compiling usart.c...
+..\src\usart.h(19): warning:  #1-D: last line of file ends without a newline
+  extern uint16_t Get_AdcData(uint8_t ch);
+..\src\usart.c(117): warning:  #223-D: function "memcpy" declared implicitly
+  			memcpy(upside_data,UsartReceBuf,19);
+..\src\usart.c(119): warning:  #223-D: function "memset" declared implicitly
+  			memset(UsartReceBuf,0,19);
+..\src\usart.c: 3 warnings, 0 errors
+compiling main.c...
+..\src\usart.h(19): warning:  #1-D: last line of file ends without a newline
+  extern uint16_t Get_AdcData(uint8_t ch);
+..\src\CRC.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\src\main.c(158): warning:  #223-D: function "sprintf" declared implicitly
+  			sprintf(ADC_code,"%04x\n",ADC8_data);
+..\src\main.c(165): warning:  #223-D: function "sprintf" declared implicitly
+  	  sprintf(ADC_String,"%.2fV\n",y);
+..\src\main.c(89): warning:  #177-D: variable "CRC_tmp_code" was declared but never referenced
+  	u16 CRC_tmp_code = 0;
+..\src\main.c(91): warning:  #177-D: variable "upside_data_tmp" was declared but never referenced
+  	uint8_t upside_data_tmp[19] = "111111111111111111";
+..\src\main.c(248): warning:  #1-D: last line of file ends without a newline
+  /*********************************END FILE************************************/
+..\src\main.c: 7 warnings, 0 errors
+compiling timer.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_dbgmcu.c...
+compiling misc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_flash.c...
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling system_stm32f10x.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_rcc.c...
+linking...
+Program Size: Code=16664 RO-data=580 RW-data=112 ZI-data=1760  
+FromELF: creating hex file...
+".\Obj\RF-TX.axf" - 0 Error(s), 12 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+<h2>Collection of Component include folders:</h2>
+  D:\工作\YN\git-for-yang\ADC8486M100\M100\Project\MDK-ARM\RTE
+  D:\MDK5\anzhuang\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  D:\MDK5\anzhuang\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+Build Time Elapsed:  00:00:08
+</pre>
+</body>
+</html>
